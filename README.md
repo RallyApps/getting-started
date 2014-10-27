@@ -21,8 +21,8 @@ Distributed under the MIT License.
 
 ## Additional Resources
 
-* Getting Started - [http://help.rallydev.com/apps/2.0rc3/doc/#!/guide/getting_started]
-* StackOverflow Q&A - [http://stackoverflow.com/questions/tagged/rally]
-* App Examples - [http://help.rallydev.com/apps/2.0rc3/doc/#!/example]
-* App Guides - [http://help.rallydev.com/apps/2.0rc3/doc/#!/guide]
-* The App Catalog - [https://github.com/RallyApps/app-catalog]
+* [Getting Started](http://help.rallydev.com/apps/2.0rc3/doc/#!/guide/getting_started)
+* [StackOverflow Q&A](http://stackoverflow.com/questions/tagged/rally)
+* [App Examples](http://help.rallydev.com/apps/2.0rc3/doc/#!/example)
+* [App Guides](http://help.rallydev.com/apps/2.0rc3/doc/#!/guide)
+* [The App Catalog](https://github.com/RallyApps/app-catalog)
