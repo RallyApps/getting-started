@@ -17,7 +17,7 @@ Distributed under the MIT License.
 ## Contents
 
 * App Anatomy - Coming soon...
-* [Data Models](data-models/README.md) - Create, Read, Update and Delete items
+* [Data Models](data-models/) - Create, Read, Update and Delete items
 
 ## Additional Resources
 

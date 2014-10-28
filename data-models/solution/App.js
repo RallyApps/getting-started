@@ -9,7 +9,7 @@ Ext.define('Rally.gettingstarted.DataModels', {
      * _getStoryModel should be called here
      */
     launch: function() {
-
+        this._getStoryModel();
     },
 
     /**
@@ -17,7 +17,12 @@ Ext.define('Rally.gettingstarted.DataModels', {
      * When complete, call _createStory
      */
     _getStoryModel: function() {
-        
+        console.log('Retrieving model...');
+        Rally.data.ModelFactory.getModel({
+            type: 'UserStory',
+            success: this._createStory,
+            scope: this
+        });    
     },
 
     /**
@@ -26,7 +31,15 @@ Ext.define('Rally.gettingstarted.DataModels', {
      * When complete, call _readStory
      */
     _createStory: function(model) {
+        var newStory = Ext.create(model, {
+            Name: 'App SDK 2 is awesome!'
+        });
 
+        console.log('Creating story...');
+        newStory.save({
+            callback: this._readStory,
+            scope: this
+        });
     },
 
     /**
@@ -35,17 +48,27 @@ Ext.define('Rally.gettingstarted.DataModels', {
      * When complete call _printStory
      */
     _readStory: function(story, operation) {
-        var model = story.self;
+        if(operation.wasSuccessful()) {
+            var model = story.self;
+            console.log('Reading story...');
+            model.load(story.getId(), {
+                fetch: ['FormattedID'],
+                callback: this._printStory,
+                scope: this
+            });
+        }
     },
 
     /**
      * Print the story's FormattedID to the console.
      * The model's get method should be useful here.
      * Hint: did you remember to fetch FormattedID in _readStory?
-     * Call _updateStory when done.
      */
     _printStory: function(story, operation) {
-
+        if(operation.wasSuccessful()) {
+            console.log('FormattedID:', story.get('FormattedID'));
+            this._updateStory(story);
+        }
     },
 
     /**
@@ -54,7 +77,12 @@ Ext.define('Rally.gettingstarted.DataModels', {
      * When complete call _deleteStory
      */
     _updateStory: function(story) {
-
+        story.set('PlanEstimate', 5);
+        console.log('Updating story...');
+        story.save({
+            callback: this._deleteStory,
+            scope: this
+        });
     },
 
     /**
@@ -63,6 +91,18 @@ Ext.define('Rally.gettingstarted.DataModels', {
      * When complete console.log a success message.
      */
     _deleteStory: function(story, operation) {
+        if(operation.wasSuccessful()) {
+            console.log('Deleting story...');
+            story.destroy({
+                callback: this._complete,
+                scope: this
+            });
+        }
+    },
 
+    _complete: function(story, operation) {
+        if(operation.wasSuccessful()) {
+            console.log('Done!');
+        }
     }
 });
