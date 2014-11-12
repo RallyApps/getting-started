@@ -17,11 +17,11 @@ Ext.define('Rally.gettingstarted.Context', {
 
         //Display the current user's name
 
-        //Display the current subscription something
-
-        //Display the current user's profile something
+        //Display the current subscription type
 
         //Display the current workspace's datetime format
+
+        //Display the current user's profile datetime format
 
         //Display the current user's permission level
         //Sub Admin? Workspace Admin? Project Admin? Project Editor? Project Viewer?
