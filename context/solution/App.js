@@ -21,7 +21,7 @@ Ext.define('Rally.gettingstarted.Context', {
         this._displayContextValue('User: ' + context.getUser().UserName);
 
         //Display the current subscription type
-        this._displayContextValue('Subscription type: ' + subscription.SubscriptionType);
+        this._displayContextValue('Subscription type: ' + context.getSubscription().SubscriptionType);
 
         //Display the current workspace's datetime format
         var workspaceConfig = context.getWorkspace().WorkspaceConfiguration;
