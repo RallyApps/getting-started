@@ -2,7 +2,7 @@
 
 A data store is a collection of records.  In the App SDK stores are the standard data container for all UI components.  Stores support querying, filtering, sorting and paging data from Rally's Web Services API.
 
-This exercise builds on the concepts from the [Data Models](../data-models) and [Context](../context) exercises to query for items from Rally's WSAPI. 
+This exercise builds on the concepts from the [Data Models](../data-models) and [Context](../context) exercises to query for items from Rally's WSAPI.  The exercise also demonstrates event handling and some basic usage of the [Lo-Dash](http://help.rallydev.com/apps/2.0rc3/doc/#!/guide/third_party_libs-section-lo-dash-2.4.1) library.
 
 Some helpful documentation:
 
