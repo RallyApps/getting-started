@@ -19,6 +19,7 @@ Distributed under the MIT License.
 * App Anatomy - Coming soon...
 * [Data Models](data-models/) - Create, Read, Update and Delete items
 * [Context](context/) - Use components to explore an app's context
+* [Data Stores](data-stores/) - Query for items
 
 ## Additional Resources
 
