@@ -20,6 +20,7 @@ Distributed under the MIT License.
 * [Data Models](data-models/) - Create, Read, Update and Delete items
 * [Context](context/) - Use components to explore an app's context
 * [Data Stores](data-stores/) - Query for items
+* [Using Components](using-components/) - Add components to an app and connect them with events
 
 ## Additional Resources
 
