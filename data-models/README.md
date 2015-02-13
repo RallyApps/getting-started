@@ -14,8 +14,8 @@ This exercise demonstrates the basic concepts of working with models:
 
 Some helpful documentation:
 
-* [Rally.data.ModelFactory](http://help.rallydev.com/apps/2.0rc3/doc/#!/api/Rally.data.ModelFactory)
-* [Rally.domain.WsapiModel](http://help.rallydev.com/apps/2.0rc3/doc/#!/api/Rally.domain.WsapiModel)
-* [Data Models Guide](http://help.rallydev.com/apps/2.0rc3/doc/#!/guide/data_models)
+* [Rally.data.ModelFactory](http://help.rallydev.com/apps/2.0/doc/#!/api/Rally.data.ModelFactory)
+* [Rally.domain.WsapiModel](http://help.rallydev.com/apps/2.0/doc/#!/api/Rally.domain.WsapiModel)
+* [Data Models Guide](http://help.rallydev.com/apps/2.0/doc/#!/guide/data_models)
 
 A [solution](solution/) to this problem is provided to compare against.

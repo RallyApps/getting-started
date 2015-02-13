@@ -6,9 +6,10 @@ This exercise will demonstrate how to add SDK components backed by data stores t
 
 Some helpful documentation:
 
-* [Rally.ui.combobox.FieldValueComboBox](http://help.rallydev.com/apps/2.0rc3/doc/#!/api/Rally.ui.combobox.FieldValueComboBox)
-* [Rally.ui.grid.Grid](http://help.rallydev.com/apps/2.0rc3/doc/#!/api/Rally.ui.grid.Grid)
-* [Components & Containers Guide](http://help.rallydev.com/apps/2.0rc3/doc/#!/guide/add_content)
-* [Filtered Grid Example](http://help.rallydev.com/apps/2.0rc3/doc/#!/example/filterable-grid)
+* [Rally.ui.combobox.FieldValueComboBox](http://help.rallydev.com/apps/2.0/doc/#!/api/Rally.ui.combobox.FieldValueComboBox)
+* [Rally.ui.grid.Grid](http://help.rallydev.com/apps/2.0/doc/#!/api/Rally.ui.grid.Grid)
+* [Components & Containers Guide](http://help.rallydev.com/apps/2.0/doc/#!/guide/add_content)
+* [Events Guide](http://help.rallydev.com/apps/2.0/doc/#!/guide/events)
+* [Filtered Grid Example](http://help.rallydev.com/apps/2.0/doc/#!/example/filterable-grid)
 
 A [solution](solution/) to this problem is provided to compare against.

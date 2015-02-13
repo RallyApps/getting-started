@@ -1,6 +1,6 @@
 # Getting Started
 
-A repository of exercises designed to demonstrate common techniques and best practices for developing apps on the Rally platform using [App SDK 2.0](http://help.rallydev.com/apps/2.0rc3/doc/).
+A repository of exercises designed to demonstrate common techniques and best practices for developing apps on the Rally platform using [App SDK 2.0](http://help.rallydev.com/apps/2.0/doc/).
 
 ## License
 
@@ -24,8 +24,8 @@ Distributed under the MIT License.
 
 ## Additional Resources
 
-* [Getting Started](http://help.rallydev.com/apps/2.0rc3/doc/#!/guide/getting_started)
+* [Getting Started](http://help.rallydev.com/apps/2.0/doc/#!/guide/getting_started)
 * [StackOverflow Q&A](http://stackoverflow.com/questions/tagged/rally)
-* [App Examples](http://help.rallydev.com/apps/2.0rc3/doc/#!/example)
-* [App Guides](http://help.rallydev.com/apps/2.0rc3/doc/#!/guide)
+* [App Examples](http://help.rallydev.com/apps/2.0/doc/#!/example)
+* [App Guides](http://help.rallydev.com/apps/2.0/doc/#!/guide)
 * [The App Catalog](https://github.com/RallyApps/app-catalog)

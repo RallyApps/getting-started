@@ -49,7 +49,7 @@ Ext.define('Rally.gettingstarted.DataStores', {
         if(success && store.getCount() > 0) {
             var story = records[0],
                 defectsStore = story.getCollection('Defects', {
-                    fetch: ['FormattedID', 'Name'],
+                    fetch: ['FormattedID', 'Name']
                 });
 
             defectsStore.load({
