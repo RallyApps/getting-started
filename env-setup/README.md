@@ -29,7 +29,7 @@ To install:
 
 ## Hello World
 
-If you haven't yet cloned the Getting Started repository let's do that now:
+If you haven't yet cloned the Getting Started repository let's do that now.  Note you can put it anywhere you store your coding projects- in the example command below it's in the ~/projects directory:
 
 `git clone https://github.com/RallyApps/getting-started ~/projects/getting-started`
 

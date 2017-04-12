@@ -1,6 +1,6 @@
 {
     "name": "Hello World",
-    "className": "CustomApp",
+    "className": "HelloWorldApp",
     "server": "https://rally1.rallydev.com",
     "sdk": "2.1",
     "javascript": [
