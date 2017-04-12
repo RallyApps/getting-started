@@ -11,12 +11,11 @@ Distributed under the MIT License.
 
 * Basic understanding of JavaScript/HTML/CSS
 * Basic understanding of the Rally data model and [Web Services API](https://rally1.rallydev.com/slm/doc/webservice/)
-* A functioning installation of [Rally App Builder](https://github.com/rallyapps/rally-app-builder)
 * A favorite text editor (VS Code, Atom, VIM, etc.)
 
 ## Contents
 
-* [Environment Setup](env-setup/) - Install oh-my-zsh, nvm, node and rally-app-builder
+* [Environment Setup](env-setup/) - Install nvm, node and rally-app-builder
 * [Data Models](data-models/) - Create, Read, Update and Delete items
 * [Context](context/) - Use components to explore an app's context
 * [Data Stores](data-stores/) - Query for items
