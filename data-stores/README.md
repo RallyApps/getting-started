@@ -1,4 +1,4 @@
-#Data Stores
+# Data Stores
 
 A data store is a collection of records.  In the App SDK stores are the standard data container for all UI components.  Stores support querying, filtering, sorting and paging data from Rally's Web Services API.
 

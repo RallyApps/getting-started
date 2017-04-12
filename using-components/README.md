@@ -1,4 +1,4 @@
-#Using Components
+# Using Components
 
 A component is the most basic UI building block. Components are configurable javascript objects which render HTML content to the DOM.  Most components use stores to populate the data to be rendered. Common examples of components in the App SDK include combo boxes, grids and boards.
 
