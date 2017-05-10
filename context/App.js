@@ -21,7 +21,7 @@ Ext.define('Rally.gettingstarted.Context', {
 
         //Display the current workspace's datetime format
 
-        //Display the current user's profile datetime format
+        //Display the current user's timezone
 
         //Display the current user's permission level
         //Sub Admin? Workspace Admin? Project Admin? Project Editor? Project Viewer?
