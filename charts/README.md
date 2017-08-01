@@ -10,5 +10,6 @@ Some helpful documentation:
 * [Data Visualization Guide](https://help.rallydev.com/apps/2.1/doc/#!/guide/data_visualization)
 * [Bare Metal Chart Example](https://help.rallydev.com/apps/2.1/doc/#!/example/bare-metal-chart)
 * [Lodash](https://help.rallydev.com/apps/2.1/doc/#!/guide/third_party_libs-section-lo-dash-2.4.1)
+* [Highcharts API Reference](http://api.highcharts.com/highcharts)
 
 A [solution](solution/) to this problem is provided to compare against.
