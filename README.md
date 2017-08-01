@@ -16,10 +16,11 @@ Distributed under the MIT License.
 ## Contents
 
 * [Environment Setup](env-setup/) - Install nvm, node and rally-app-builder
-* [Data Models](data-models/) - Create, Read, Update and Delete items
+* [Data Models](data-models/) - Create, Read, Update and Delete items in WSAPI
 * [Context](context/) - Use components to explore an app's context
-* [Data Stores](data-stores/) - Query for items
+* [Data Stores](data-stores/) - Query for items in WSAPI
 * [Using Components](using-components/) - Add components to an app and connect them with events
+* [Charts](charts/) - Create a visualization of WSAPI data
 
 ## Additional Resources
 
